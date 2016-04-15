@@ -48,4 +48,8 @@
     v :w 234.txt
 5.4 :r 234.txt
     :r !ls
+5.5 :set hlsearch
+    :set nohlsearch
+7.1 :help set
+    :w Ctrl+D
 
