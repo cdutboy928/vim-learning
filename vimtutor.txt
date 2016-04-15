@@ -1,0 +1,51 @@
+                   vimtutor
+1.1 h l j k to move the cursor.0 to move to the start of the line
+1.2 :wq :q!
+1.3 x to delete the character under the cursor
+1.4 i to insert before the cursor;I to insert before the head of the line 
+<ESC> to return the normal mode
+1.5 a after the cursor;A to append after the end of the line
+1.6 o to insert a new line after the current line
+    O to insert a new line before the current line
+1.7 dw to delete a word
+    d$ to delete to the end of the line
+    de to delete the end of the current word
+1.8 motions:2w to move the cursor to the two words forward
+            3e to move the cursor to the end of the third word forward
+1.9 operator number motion
+    d2w to delete two words
+2.6 dd to delete the whole line
+    2dd to delete two lines
+2.7 u to undo the last one command
+    U to fix a whole line
+    Ctrl+R to redo the last undo
+3.1 p to put the previous deleted text after the cursor
+3.2 r to replace the character
+3.3 ce to change untill the end of the word
+3.4 Ctrl+g to show the line information
+    gg to the start of the file
+    G to the end of the file
+    492 G to the line 492
+
+4.2 /errroor to search for "errroor"
+    n to continue searching to the next place
+    N to continue searching to the previous place 
+    ?errroor to search for "errroor" in the backward direction
+    Ctrl+O to the older positions
+    Ctrl+I to the newer positions
+4.2 % to match parentheses
+4.3 :s/old/new to only substitue the first occurrence in the line
+    :s/old/new/g to substitute all occurrences in the line
+    :2,3s/old/new/g to substitue all the occurrences in the 2 and 3 lines
+    :%s/old/new/g to substitute all the occrrences in the file
+    :%s/old/new/gc to substitute all the occrrences in the file with a prompt
+5.1 :!<command>
+     :!dir
+     :!ls
+5.2 :w 123.txt
+5.3 v motion
+    v d
+    v :w 234.txt
+5.4 :r 234.txt
+    :r !ls
+
