@@ -1,5 +1,8 @@
                    vimtutor
 1.1 h l j k to move the cursor.0 to move to the start of the line
+1.8 motions:2w to move the cursor to the two words forward
+            3e to move the cursor to the end of the third word forward
+            b to move the cursor backward
 1.2 :wq :q! :w
 1.3 x to delete the character under the cursor
 1.4 i to insert before the cursor;I to insert before the begin of the line 
@@ -10,8 +13,6 @@
 1.7 dw to delete a word
     d$ to delete to the end of the line
     de to delete the end of the current word
-1.8 motions:2w to move the cursor to the two words forward
-            3e to move the cursor to the end of the third word forward
 1.9 operator number motion
     d2w to delete two words
 2.6 dd to delete the whole line
