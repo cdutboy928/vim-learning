@@ -66,3 +66,6 @@
 7.3 ~ capcase
 7.4 Ctrl+f
     Ctrl+b
+8.1 show the path of the current file:Ctrl+G
+                                      :!pwd
+                                      :f
