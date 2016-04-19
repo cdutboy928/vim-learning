@@ -70,3 +70,14 @@
 8.1 show the path of the current file:Ctrl+G
                                       :!pwd
                                       :f
+==========================================================================
+copy from one vim to another:
++xterm_clipboard sudo apt-get install vim-gnome
+copy:"+y "+yy "+dd
+paste:"+p
+
+==========================================================================
+                to comment and uncomment 
+Crtl+V> select>#/--/"
+Ctrl+V>select> 
+
