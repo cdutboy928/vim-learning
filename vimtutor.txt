@@ -78,6 +78,6 @@ paste:"+p
 
 ==========================================================================
                 to comment and uncomment 
-Crtl+V> select>#/--/"
-Ctrl+V>select> 
+Crtl+V> select>shift+i>#/--/">Esc
+Ctrl+V>select >x
 
